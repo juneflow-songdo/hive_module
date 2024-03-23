@@ -1,9 +1,9 @@
 name: hive_module
 description: "JuneFlow Module"
 #publish_to: 'none'
-#repository: https://github.com/melodysdreamj/juneflow
+repository: https://github.com/juneflow-songdo/hive_module
 
-version: 1.0.0+2
+version: 1.0.0+3
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -13,7 +13,6 @@ dependencies:
     sdk: flutter
   go_router: ^13.2.0
   june_flow_util:
-
   hive: #@add
   hive_flutter: #@add
 
