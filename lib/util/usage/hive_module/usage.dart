@@ -6,13 +6,14 @@ String _noteName = "Note";
 
 T _button00 = T("00", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-
+  hiveBox.put('key', 123);
   ////////////////////////////////////////
 });
 
 T _button01 = T("01", onTap: (BuildContext context) async {
   ////////////////////////////////////////
-
+  int value = hiveBox.get('key');
+  print(value); // 123
   ////////////////////////////////////////
 });
 
@@ -605,7 +606,6 @@ T _button99 = T("99", onTap: (BuildContext context) async {
 });
 
 main() async {
-
   MyAppHome = FunctionNoteKit(
     title: _noteName,
     button00: _button00,
