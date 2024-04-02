@@ -1,9 +1,9 @@
 name: hive_module
-description: "JuneFlow Module"
+description: "this module is a wrapper for the hive package, it provides a simple way to use hive in juneflow project."
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/hive_module
 
-version: 1.0.0+4
+version: 1.0.1
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
