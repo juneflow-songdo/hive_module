@@ -3,7 +3,7 @@ description: "this module is a wrapper for the hive package, it provides a simpl
 #publish_to: 'none'
 repository: https://github.com/juneflow-songdo/hive_module
 
-version: 1.0.1
+version: 1.0.2
 
 environment:
   sdk: '>=3.3.1 <4.0.0'
@@ -14,7 +14,8 @@ dependencies:
   go_router: ^13.2.0
   june_flow_util:
   hive: #@add
-  hive_flutter: #@add
+  isar_flutter_libs: #@add
+  path_provider: #@add
 
 dev_dependencies:
   flutter_test:
